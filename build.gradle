@@ -15,5 +15,5 @@ test {
 }
 dependencies {
     compile 'com.google.code.gson:gson:2.8.6'
-    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
+    compile 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
 }
