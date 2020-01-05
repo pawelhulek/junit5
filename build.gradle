@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hulio.playground'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+test {
+    useJUnitPlatform()
+}
+dependencies {
+    compile 'com.google.code.gson:gson:2.8.6'
+    testCompile 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
+}
